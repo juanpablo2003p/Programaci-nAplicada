@@ -52,7 +52,7 @@ class Calculadora:
             num2 = float(self.num2_entry.get())
             return num1, num2
         except ValueError:
-            messagebox.showerror("Error", "Por favor, ingrese números válidos.")
+            messagebox.showerror("Error", "Por favor, ingrese números válidos como vas a ingresar letras wn, te falla???.")
             return None, None
 
     def sumar(self):
@@ -80,7 +80,7 @@ class Calculadora:
                 resultado = num1 / num2
                 self.resultado_label.config(text=f"Resultado: {resultado}")
             except ZeroDivisionError:
-                messagebox.showerror("Error", "No se puede dividir por cero.")
+                messagebox.showerror("Error", "No se puede dividir por cero eres retrasadito mental???.")
 
 
 # Crear la ventana principal
