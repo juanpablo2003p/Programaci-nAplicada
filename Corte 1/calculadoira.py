@@ -5,28 +5,28 @@ from tkinter import messagebox
 class Calculadora:
     def __init__(self, master):
         self.master = master
-        self.master.title("Calculadora Profesional")
+        self.master.title("Calculadora ")
         self.master.geometry("400x500")  # Tamaño de la ventana
         self.master.config(bg="#2d3e50")  # Fondo de la ventana
         
         # Estilo de los widgets
         self.style = ttk.Style()
-        self.style.configure("TButton", font=("Arial", 14), width=10, padding=10, relief="flat", background="#4CAF50", foreground="white")
+        self.style.configure("TButton", font=("Times New Roman", 14), width=10, padding=10, relief="flat", background="#4CAF50", foreground="white")
         self.style.map("TButton", background=[("active", "#45a049")])
         
-        self.style.configure("TLabel", font=("Arial", 16), background="#2d3e50", foreground="white")
+        self.style.configure("TLabel", font=("Times New Roman", 16), background="#2d3e50", foreground="white")
 
         # Etiquetas y entradas
         self.num1_label = ttk.Label(master, text="Número 1:")
         self.num1_label.grid(row=0, column=0, padx=20, pady=10, sticky="w")
 
-        self.num1_entry = ttk.Entry(master, font=("Arial", 16))
+        self.num1_entry = ttk.Entry(master, font=("Times New Roman", 16))
         self.num1_entry.grid(row=0, column=1, padx=20, pady=10, ipadx=10, ipady=5)
 
         self.num2_label = ttk.Label(master, text="Número 2:")
         self.num2_label.grid(row=1, column=0, padx=20, pady=10, sticky="w")
 
-        self.num2_entry = ttk.Entry(master, font=("Arial", 16))
+        self.num2_entry = ttk.Entry(master, font=("Times New Roman", 16))
         self.num2_entry.grid(row=1, column=1, padx=20, pady=10, ipadx=10, ipady=5)
 
         # Botones de operaciones
@@ -43,7 +43,7 @@ class Calculadora:
         self.dividir_btn.grid(row=3, column=1, padx=10, pady=10)
 
         # Etiqueta para mostrar el resultado
-        self.resultado_label = ttk.Label(master, text="Resultado: ", font=("Arial", 18), background="#2d3e50", foreground="white")
+        self.resultado_label = ttk.Label(master, text="Resultado: ", font=("Times New Roman", 18), background="#2d3e50", foreground="white")
         self.resultado_label.grid(row=4, column=0, columnspan=2, pady=20)
 
     def get_inputs(self):
