@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!-- Especifica que este documento es un archivo HTML5 -->
 <html lang="en"> <!-- Abre el documento HTML y define que el idioma de la página es inglés -->
+
 <head> <!-- Comienza la sección de metadatos del documento -->
     <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 para soportar una amplia gama de caracteres -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala de la página para dispositivos móviles -->
@@ -36,5 +37,5 @@
     </dl> <!-- Cierra la lista de definiciones -->
 
 </body> <!-- Finaliza la sección visible de la página -->
-</html> <!-- Cierra el documento HTML -->
 
+</html> <!-- Cierra el documento HTML -->
