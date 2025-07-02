@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Receta rápida de hummus</title>
+</head>
+<body>
+    <!-- Título de la receta con un estilo en línea para el tamaño y márgenes -->
+    <h1> <span style="font-size: 80px; margin: 10px 0;">hummus recipe</span> </h1> 
+    
+    <!-- Párrafo de introducción sobre la receta de hummus -->
+    <p>Esta receta hace un hummus rápido y <strong><em>delicioso</em></strong>, sin complicaciones. Ha sido adaptada de varias recetas que he leído a lo largo de los años. El hummus es una pasta espesa y deliciosa, utilizada mucho en la cocina griega y de Medio Oriente. Es muy sabroso con ensaladas, carnes a la parrilla y pan de pita. Ingredientes:</p>
+    
+    <!-- Lista ordenada con los ingredientes para la receta -->
+    <ol>
+        <li>1 lata (400g) de garbanzos</li> <!-- Un ingrediente de la lista -->
+        <li>175g de tahini</li>
+        <li>6 tomates secos</li>
+        <li>Un pimiento rojo</li>
+        <li>Un poco de pimienta de cayena</li>
+        <li>1 diente de ajo</li>
+        <li>Un chorrito de aceite de oliva</li>
+    </ol>
+
+    <!-- Subtítulo para las instrucciones -->
+    <h2>Instrucciones</h2> 
+    
+    <p>Retira la piel del ajo y córtalo en trozos grandes. Quita las semillas y el tallo del pimiento, y córtalo en trozos grandes. Coloca todos los ingredientes en un procesador de alimentos. Procesa todo hasta obtener una pasta. Si prefieres un hummus "grumoso", procésalo por poco tiempo. Si prefieres un hummus suave, procésalo por más tiempo.</p>
+
+    <p>Si deseas probar diferentes sabores, puedes intentar agregar un poco de limón y cilantro, chile, lima y chipotle, harissa y menta, o espinacas y queso feta. ¡Experimenta y encuentra lo que más te guste!</p>
+    
+    <!-- Subtítulo para la sección de almacenamiento -->
+    <h2>Almacenamiento</h2> 
+
+    <p>Guarda el hummus en un recipiente sellado en el refrigerador. Podrás usarlo durante una semana después de hacerlo. Si empieza a hacer burbujas o "fermentar", es mejor descartarlo. El hummus también se puede congelar; deberías descongelarlo y usarlo dentro de un par de meses.</p>
+</body>
+</html>
 
