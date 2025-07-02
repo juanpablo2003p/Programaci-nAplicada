@@ -1,21 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
-</head>
-<body>
+<!DOCTYPE html> <!-- Declara que el documento es de tipo HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML e indica que el idioma es inglés -->
+
+<head> <!-- Inicia la sección de metadatos -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta la escala para dispositivos móviles -->
+    <title>Documento</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+</head> <!-- Cierra la sección de metadatos -->
+
+<body> <!-- Inicia el contenido visible de la página -->
+
     <!-- Título principal de la página -->
     <h1>Algo de Música</h1> 
-    
+
     <!-- Párrafo que habla sobre el gusto por la música y contiene enlaces -->
-    <p>Disfruto mucho <strong>tocando la batería</strong> <!-- El texto "tocando la batería" está en negrita -->. Una de mis bandas favoritas es Neal Peart, que toca en la banda
-    <a href="https://en.wikipedia.org/wiki/Rush_%28band%29" title="Rush Wikipedia article">Rush.</a> <!-- Enlace a la página de Wikipedia de Rush --> Mi álbum favorito de Rush actualmente es
-    <a href="http://www.deezer.com/album/942295">Moving Pictures</a>.</p> <!-- Enlace a un álbum en Deezer -->
+    <p>
+        Disfruto mucho <strong>tocando la batería</strong> <!-- El texto "tocando la batería" está en negrita -->. 
+        Una de mis bandas favoritas es Neal Peart, que toca en la banda
+        <a href="https://en.wikipedia.org/wiki/Rush_%28band%29" title="Rush Wikipedia article">Rush.</a> 
+        <!-- Enlace a la página de Wikipedia de Rush --> 
+        Mi álbum favorito de Rush actualmente es
+        <a href="http://www.deezer.com/album/942295">Moving Pictures</a>.
+        <!-- Enlace a un álbum en Deezer -->
+    </p>
 
     <!-- Se agrega una imagen del álbum "Moving Pictures" con dimensiones especificadas -->
-    <img src="http://www.cygnus-x1.net/links/rush/images/albums/sectors/sector2-movingpictures-cover-s.jpg" alt="Portada del álbum Moving Pictures de Rush" width="400" height="400">
-</body>
-</html>
+    <img src="http://www.cygnus-x1.net/links/rush/images/albums/sectors/sector2-movingpictures-cover-s.jpg" 
+         alt="Portada del álbum Moving Pictures de Rush" 
+         width="400" height="400">
+    <!-- La etiqueta <img> se usa para insertar imágenes. El atributo alt describe la imagen y los atributos width y height 
+         definen el tamaño de la imagen. -->
+
+</body> <!-- Cierra el contenido visible -->
+</html> <!-- Cierra el documento HTML -->
 
