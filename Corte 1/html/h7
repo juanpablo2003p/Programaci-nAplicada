@@ -1,1 +1,15 @@
+<!DOCTYPE html> <!-- Declara que el documento es de tipo HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML y define que el idioma es inglés -->
+
+<head> <!-- Inicia la sección de metadatos, que contiene información sobre la página -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 para soportar la mayoría de los caracteres internacionales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el comportamiento de la página en dispositivos móviles, asegurando que se ajuste al ancho de la pantalla -->
+    <title>Document</title> <!-- Define el título de la página, que aparece en la pestaña del navegador -->
+</head> <!-- Cierra la sección de metadatos -->
+
+<body> <!-- Inicia el contenido visible de la página. Aquí se colocan los elementos que los usuarios verán en el navegador. -->
+
+</body> <!-- Cierra el cuerpo de la página, que está vacío en este caso -->
+
+</html> <!-- Cierra el documento HTML -->
 
