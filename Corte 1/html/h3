@@ -1,20 +1,33 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Receta rápida de hummus</title>
-</head>
-<body>
+<!DOCTYPE html> <!-- Declara que el documento es de tipo HTML5 -->
+<html lang="en-US"> <!-- Inicia el documento HTML e indica que el idioma es inglés de EE.UU. -->
+
+<head> <!-- Inicia la sección de metadatos -->
+    <meta charset="utf-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width"> <!-- Hace que la página sea responsiva, ajustando el tamaño para dispositivos móviles -->
+    <title>Receta rápida de hummus</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+</head> <!-- Cierra la sección de metadatos -->
+
+<body> <!-- Inicia el contenido visible de la página -->
+
     <!-- Título de la receta con un estilo en línea para el tamaño y márgenes -->
-    <h1> <span style="font-size: 80px; margin: 10px 0;">hummus recipe</span> </h1> 
+    <h1> 
+        <span style="font-size: 80px; margin: 10px 0;">hummus recipe</span> 
+        <!-- El texto "hummus recipe" está en un <span> con estilo en línea que ajusta el tamaño de la fuente y el margen -->
+    </h1> 
     
     <!-- Párrafo de introducción sobre la receta de hummus -->
-    <p>Esta receta hace un hummus rápido y <strong><em>delicioso</em></strong>, sin complicaciones. Ha sido adaptada de varias recetas que he leído a lo largo de los años. El hummus es una pasta espesa y deliciosa, utilizada mucho en la cocina griega y de Medio Oriente. Es muy sabroso con ensaladas, carnes a la parrilla y pan de pita. Ingredientes:</p>
+    <p>
+        Esta receta hace un hummus rápido y <strong><em>delicioso</em></strong>, sin complicaciones. 
+        <!-- El texto "delicioso" está en negrita y cursiva para resaltar -->
+        Ha sido adaptada de varias recetas que he leído a lo largo de los años. 
+        El hummus es una pasta espesa y deliciosa, utilizada mucho en la cocina griega y de Medio Oriente. 
+        Es muy sabroso con ensaladas, carnes a la parrilla y pan de pita. Ingredientes:
+    </p>
     
     <!-- Lista ordenada con los ingredientes para la receta -->
-    <ol>
-        <li>1 lata (400g) de garbanzos</li> <!-- Un ingrediente de la lista -->
+    <ol> 
+        <!-- <ol> define una lista ordenada (numerada) -->
+        <li>1 lata (400g) de garbanzos</li> <!-- Primer ingrediente de la lista -->
         <li>175g de tahini</li>
         <li>6 tomates secos</li>
         <li>Un pimiento rojo</li>
@@ -26,14 +39,30 @@
     <!-- Subtítulo para las instrucciones -->
     <h2>Instrucciones</h2> 
     
-    <p>Retira la piel del ajo y córtalo en trozos grandes. Quita las semillas y el tallo del pimiento, y córtalo en trozos grandes. Coloca todos los ingredientes en un procesador de alimentos. Procesa todo hasta obtener una pasta. Si prefieres un hummus "grumoso", procésalo por poco tiempo. Si prefieres un hummus suave, procésalo por más tiempo.</p>
+    <!-- Párrafo con las instrucciones para hacer el hummus -->
+    <p>
+        Retira la piel del ajo y córtalo en trozos grandes. Quita las semillas y el tallo del pimiento, 
+        y córtalo en trozos grandes. Coloca todos los ingredientes en un procesador de alimentos. 
+        Procesa todo hasta obtener una pasta. Si prefieres un hummus "grumoso", procésalo por poco tiempo. 
+        Si prefieres un hummus suave, procésalo por más tiempo.
+    </p>
 
-    <p>Si deseas probar diferentes sabores, puedes intentar agregar un poco de limón y cilantro, chile, lima y chipotle, harissa y menta, o espinacas y queso feta. ¡Experimenta y encuentra lo que más te guste!</p>
+    <!-- Párrafo con sugerencias para experimentar con sabores -->
+    <p>
+        Si deseas probar diferentes sabores, puedes intentar agregar un poco de limón y cilantro, chile, 
+        lima y chipotle, harissa y menta, o espinacas y queso feta. ¡Experimenta y encuentra lo que más te guste!
+    </p>
     
     <!-- Subtítulo para la sección de almacenamiento -->
     <h2>Almacenamiento</h2> 
 
-    <p>Guarda el hummus en un recipiente sellado en el refrigerador. Podrás usarlo durante una semana después de hacerlo. Si empieza a hacer burbujas o "fermentar", es mejor descartarlo. El hummus también se puede congelar; deberías descongelarlo y usarlo dentro de un par de meses.</p>
-</body>
-</html>
+    <!-- Párrafo con instrucciones sobre cómo almacenar el hummus -->
+    <p>
+        Guarda el hummus en un recipiente sellado en el refrigerador. Podrás usarlo durante una semana después de hacerlo. 
+        Si empieza a hacer burbujas o "fermentar", es mejor descartarlo. El hummus también se puede congelar; 
+        deberías descongelarlo y usarlo dentro de un par de meses.
+    </p>
+
+</body> <!-- Cierra el contenido visible -->
+</html> <!-- Cierra el documento HTML -->
 
