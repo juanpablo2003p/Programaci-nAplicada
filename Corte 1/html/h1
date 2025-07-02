@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <!-- Un párrafo con texto en cursiva, que también tiene una parte en negrita -->
+    <p>
+        <em>Este es mi <strong>primer parrafo</strong></em>
+    </p>
+    <!-- Aquí usamos <em> para poner en cursiva, y <strong> para negrita -->
+
+    <br> <!-- Se hace un salto de línea -->
+
+    <!-- Se inserta una imagen con un enlace a una URL -->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" alt="Logo de Firefox">
+    
+    <br> 
+
+    <!-- Aquí comienza un formulario -->
+    <form action="/my-handling-from-page" method="post">
+        <ul>
+            <!-- Se incluye un campo para ingresar el nombre -->
+            <li>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name">
+            </li>
+            <!-- Se incluye un campo para escribir el correo electrónico -->
+            <li>
+                <label for="mail">Correo Electrónico</label>
+                <input type="text" id="mail" name="user_mail">
+            </li>
+            <!-- Se agrega un campo para que el usuario escriba un mensaje -->
+            <li>
+                <label for="msg">Mensaje</label>
+                <textarea id="msg" name="user_msg"></textarea>
+            </li>
+            <!-- Se pone un botón para enviar el formulario -->
+            <li class="button">
+                <input type="submit" value="Enviar Mensaje Favorito">
+            </li>
+        </ul>
+    </form>
+    
+    <br>
+
+    <!-- Se incluye un enlace a otro sitio web -->
+    <a href="https://www.mozilla.org">Sitio Web Favorito</a>
+    
+    <br>
+</body>
+</html>
 
